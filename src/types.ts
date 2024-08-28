@@ -11,6 +11,5 @@ export interface WebSites {
   id: number;
   title: string;
   url: string;
-  
   list: WebSiteList[];
 }

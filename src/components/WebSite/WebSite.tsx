@@ -1,5 +1,5 @@
 import "./Website.less";
-import { WebSites, WebSiteList } from "@/types";
+import { WebSites, WebSiteList } from "../../types";
 // 获取环境变量的接口地址
 const baseUrl = import.meta.env.VITE_API_BASEURL;
 

@@ -1,10 +1,8 @@
 import "./Content.less"
-// @ts-ignore
 import { WebSites, WebSiteList } from "@/types";
 import { useEffect, useState } from "react";
 import logo from "@/assets/images/logo.png";
 import WebSite from "@/components/WebSite/WebSite";
-// @ts-ignore
 import { getTitles, getWebsites } from "@/http/api";
 
 const Content = () => {

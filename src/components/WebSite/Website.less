@@ -3,13 +3,12 @@
     display: flex;
     align-items: center;
     img {
-      width: 30px;
+      width: 28px;
       margin-right: 5px;
       margin-left: 10px;
     }
     h1 {
-      font-size: 16px;
-      font-weight: normal;
+      font-size: 14px;
       color: @black;
     }
   }
@@ -35,9 +34,9 @@
         transition: all 0.2s ease-in;
         background: white;
         &:hover {
-          // 出现阴影 缩放 旋转
-          transform: scale(1.02) translateY(-15px) rotateY(-10deg);
-          box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+          // 触摸动画
+          transform: scale(1.02)translateY(-18px);
+          box-shadow: rgba(99, 99, 99, 0.2) 0px 8px 16px;
           transition: all 0.2s ease-in;
         }
         .webSite-item-info {
@@ -46,7 +45,7 @@
           justify-content: center;
           align-items: start;
           padding: 0% 10px;
-          width: 80%;
+          width: 90%;
           h2 {
             font-size: 14px;
           }
@@ -63,7 +62,6 @@
             line-height: 1.6em;
             // 两边对其
             // text-align: justify;
-            
           }
         }
         img {
