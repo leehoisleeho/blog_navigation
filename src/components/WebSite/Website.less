@@ -3,7 +3,7 @@
     display: flex;
     align-items: center;
     img {
-      width: 25px;
+      width: 30px;
       margin-right: 5px;
       margin-left: 10px;
     }
@@ -29,6 +29,7 @@
         border-radius: 5px;
         cursor: pointer;
         display: flex;
+        justify-content: center;
         align-items: center;
         padding: 10px 10px;
         transition: all 0.2s ease-in;
@@ -37,7 +38,7 @@
           // 出现阴影 缩放 旋转
           transform: scale(1.02) translateY(-15px) rotateY(-10deg);
           box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-          transition: all 0.3s ease-in;
+          transition: all 0.2s ease-in;
         }
         .webSite-item-info {
           display: flex;
@@ -45,11 +46,12 @@
           justify-content: center;
           align-items: start;
           padding: 0% 10px;
+          width: 80%;
           h2 {
             font-size: 14px;
           }
           p {
-            font-size: 12px;
+            font-size: 13px;
             color: #666;
             // 超出2行省略
             overflow: hidden;
@@ -58,14 +60,18 @@
             -webkit-line-clamp: 2;
             -webkit-box-orient: vertical;
             margin-top: 2px;
+            line-height: 1.6em;
             // 两边对其
             // text-align: justify;
+            
           }
         }
         img {
           width: 45px;
           height: 45px;
           border-radius: 50%;
+          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+          padding: 6px;
         }
       }
     }
